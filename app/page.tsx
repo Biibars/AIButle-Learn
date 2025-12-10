@@ -94,7 +94,7 @@ function DashboardView() {
     <div className="space-y-8">
       {/* Header */}
       <div>
-        <h2 className="text-3xl font-bold text-foreground mb-2">Добро пожаловать, Алексей</h2>
+        <h2 className="text-3xl font-bold text-foreground mb-2">Добро пожаловать, Барсбек</h2>
         <p className="text-muted-foreground">Здесь ваш персональный учебный план</p>
       </div>
 
@@ -381,7 +381,7 @@ function SettingsView() {
             <label className="text-sm font-medium mb-2 block">Имя</label>
             <input
               type="text"
-              defaultValue="Алексей Петров"
+              defaultValue="Барсбек Турганалиев"
               className="w-full px-3 py-2 border border-border rounded-lg bg-card"
             />
           </div>
@@ -389,7 +389,7 @@ function SettingsView() {
             <label className="text-sm font-medium mb-2 block">Email</label>
             <input
               type="email"
-              defaultValue="alexey@example.com"
+              defaultValue="bars@gmail.com"
               className="w-full px-3 py-2 border border-border rounded-lg bg-card"
             />
           </div>
